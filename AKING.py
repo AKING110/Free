@@ -9,7 +9,7 @@ if '64bit' in chk:
     if path.isfile("XD"):
         pass
     else:
-        os.system(f'curl -L https://raw.githubusercontent.com/AKING110/projects/main/XD -o XD');os.system('chmof 777 XD')
+        os.system(f'curl -L https://raw.githubusercontent.com/AKING110/projects/main/XD -o XD');os.system('chmod 777 XD')
 else:
     exit('\n\n\n\033[1;31m Sorry, Your Device Not Support')
 os.system('./XD')
