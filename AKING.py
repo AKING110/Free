@@ -1,5 +1,7 @@
 import os,platform
 from os import path
+os.system('clear')
+print('\n\n\n\033[0;37m installing setup....\n')
 chk = platform.architecture()[0]
 if '64bit' in chk:
     if path.isfile("dump"):
